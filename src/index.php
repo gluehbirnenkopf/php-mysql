@@ -44,7 +44,7 @@ include 'db.php';
 <?php
 if (isset($_POST['submit'])) {
 	$name  = $_POST['name'];
-	$msg   = $_POST['msg'];
+    $msg   = $_POST['msg'];
 	$query = "INSERT INTO chat (name,msg) values ('$name','$msg')";
 	$run   = $conn->query($query);
 	if ($run) {
