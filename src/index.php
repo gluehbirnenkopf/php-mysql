@@ -27,8 +27,7 @@ include 'db.php';
 </head>
 <body onload="ajax()">
 
-<h1>AKAD ChatTool</h1>
-<p>Das PHP Frontend wird durch Apache Webserver ausgeliefert. Eine mysql Datenbank dient dazu den Chatverlauf zu persistieren.</p>
+<h1>AKAD Chat-Tool</h1>
 
 	<div id="container">
 	<div id="chat_box">
