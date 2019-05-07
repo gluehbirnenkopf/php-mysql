@@ -11,5 +11,6 @@ while ($row = $run->fetch_array()):
 ?></span>
 				<span style="float:right;"><?php echo $row['date'];
 ?></span>
+	
 </div>
 <?php endwhile;?>
