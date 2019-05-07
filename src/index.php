@@ -43,9 +43,10 @@ include 'db.php';
 		</form>
 <?php
 if (isset($_POST['submit'])) {
-    $date  = date("Y-m-d H:i:s");
+	$date  = date("Y-m-d H:i:s");
 	$name  = $_POST['name'];
-    $msg   = $_POST['msg'];
+	$msg   = $_POST['msg'];
+	
 	$query = "INSERT INTO chat (name,msg,date) values ('$name','$msg','$date')";
 	$run   = $conn->query($query);
 	if ($run) {
