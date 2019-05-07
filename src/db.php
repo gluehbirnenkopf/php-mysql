@@ -5,6 +5,6 @@ $user    = "chatuser";
 $db_name = "lgchat";
 $conn    = new mysqli($host, $user, $pass, $db_name);
 if ($conn) {
-	echo "Connection to Chat established";
+	echo "Verbindung hergestellt";
 }
 ?>
