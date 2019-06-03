@@ -9,7 +9,7 @@ body{
 	background: #008000;
 }
 #container{
-	width: 60%;
+	width: 80%;
 	background: white;
 	margin: 0 auto;
     padding: 20px;
@@ -19,6 +19,7 @@ body{
 #chat_box{
 	width: 90%;
 	height: 400px;
+	border-radius: 8px;
 }
 input[type='text']{
 	width: 100%;
