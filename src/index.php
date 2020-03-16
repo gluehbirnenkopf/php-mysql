@@ -37,7 +37,7 @@ include 'db.php';
 	</div>
 		<form method="post" action="index.php">
 			<input type="text" name="name" placeholder="Name" required="required">
-			<textarea name="msg" placeholder="Nachricht hier eingeben" required="required"></textarea>
+			<textarea name="msg" placeholder="Nachricht bitte hier eingeben" required="required"></textarea>
 			<input type="submit" name="submit" value="Senden">
 
 		</form>
